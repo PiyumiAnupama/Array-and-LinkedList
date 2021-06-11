@@ -12,6 +12,7 @@ class Stack:
             return self.stack
         else:
             print("Stack Overflow")
+            return
 
     def pop(self):
         if len(self.stack) == 0:
