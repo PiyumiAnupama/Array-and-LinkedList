@@ -4,7 +4,7 @@ myStack=Stack(9)
 
 print(myStack.isEmptyStack())
 print(myStack.isFullStack())
-
+print(myStack.top())
 print(myStack.pop())
 
 myStack.push("A")
