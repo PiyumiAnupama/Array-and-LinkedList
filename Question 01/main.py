@@ -1,7 +1,7 @@
 from Stack import Stack
 
 myStack=Stack(9)
-
+print(myStack.size())
 print(myStack.isEmptyStack())
 print(myStack.isFullStack())
 print(myStack.top())
@@ -28,7 +28,7 @@ myStack.push("H")
 
 myStack.pop()
 myStack.pop()
-
+print(myStack.top())
 myStack.push("I")
 myStack.push("J")
 myStack.push("K")
